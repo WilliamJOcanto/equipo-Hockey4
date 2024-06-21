@@ -1,0 +1,794 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  max-height: 260vh;
+}
+
+body {
+  font-family: sans-serif;
+  background-image: url("../asset/design1_image2.jpg");
+  background-position-y: 80px;
+}
+
+header {
+  border: 3px solid black;
+  background-color: rgb(102, 51, 0);
+  height: 25vh;
+}
+
+.contenedorGrnd .subtitulo {
+  border: 2px black solid;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 2px 0px;
+  background-color: rgb(255, 255, 102);
+  border-radius: 16px;
+}
+
+header h1 {
+  display: inline-block;
+  color: white;
+  position: relative;
+  left: 200px;
+  top: 30px;
+  font-size: 45px;
+  text-shadow: 9px 8px 3px rgb(0 0 0);
+}
+
+nav {
+  position: absolute;
+  right: 12px;
+  top: 122px;
+}
+
+nav a {
+  color: rgb(255, 255, 102);
+  text-decoration: none;
+  padding: 10px 10px;
+  margin-right: 5px;
+  position: relative;
+  background-color: black;
+  box-shadow: 3px 3px 1.8px rgb(255, 255, 102);
+  border-radius: 16px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+a[href="#"] {
+  background-color: rgb(255, 255, 102);
+  color: black;
+  box-shadow: 4px 4px 1.8px black;
+}
+
+.contenedorGrnd {
+  position: relative;
+}
+
+.contenedorGrnd .contenedorPeq {
+  position: absolute;
+  top: 60px;
+  left: 260px;
+  border: 3px solid black;
+  width: 800px;
+  height: 50vh;
+  border-radius: 26px;
+  text-align: center;
+  background-color: rgb(255, 255, 102);
+  padding-top: 28px;
+  padding-bottom: 10px;
+  box-shadow: 3px 3px 1.8px black;
+}
+
+.contenedorGrnd #logo {
+  position: absolute;
+  bottom: 29px;
+  width: 180px;
+  left: 14px;
+}
+
+.contenedorGrnd .contenedorPeq .parrafo {
+  text-indent: 20px;
+  padding-top: 5px;
+  margin-bottom: 28px;
+}
+
+.contenedorPeq h3 {
+  text-decoration: underline;
+}
+
+header nav a:hover {
+  color: red;
+  transition: color 0.6s;
+}
+
+table {
+  margin-top: 15px;
+  margin-left: 96px;
+}
+
+.contenedorGrnd .contenedorTabla .encabezadoTabla {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-left: 96px;
+  margin-top: 15px;
+}
+
+table,
+tr,
+th,
+td {
+  border: 3px black solid;
+  border-collapse: collapse;
+  padding: 4px 29px;
+  background-color: rgb(102, 51, 0);
+  color: white;
+  text-align: center;
+}
+
+.contenedorGrnd .contenedorTabla {
+  position: absolute;
+  top: 60px;
+  left: 260px;
+  border: 3px solid black;
+  width: 800px;
+  height: 215vh;
+  border-radius: 26px;
+  background-color: rgb(255, 255, 102);
+  padding-top: 20px;
+  padding-bottom: 10px;
+  box-shadow: 3px 3px 1.8px black;
+}
+
+.contenedorGrnd .contenedorTabla .nombreEquipo {
+  text-align: center;
+}
+
+.contenedorGrnd .contenedorTabla .pieTabla1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin: 20px 30px 0px 30px;
+}
+
+.contenedorGrnd .contenedorTabla .pieTabla2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 30px 0px 30px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.contenedorGrnd .contenedorReglas {
+  position: absolute;
+  top: 60px;
+  left: 305px;
+  border: 3px solid black;
+  width: 55vw;
+  height: 131vh;
+  border-radius: 26px;
+  background-color: rgb(255, 255, 102);
+  padding-top: 30px;
+  padding-bottom: 10px;
+  box-shadow: 3px 3px 1.8px black;
+}
+
+li {
+  list-style-position: inside;
+}
+
+.contenedorGrnd .contenedorReglas .titulos {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.contenedorGrnd .contenedorReglas .primerParrafo {
+  text-align: left;
+  text-indent: 30px;
+  margin-bottom: 20px;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.contenedorGrnd .contenedorReglas .reglas1,
+.listaOrdenada2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 75px;
+  margin-right: 75px;
+  margin-bottom: 15px;
+  gap: 12px;
+}
+
+.contenedorGrnd .contenedorReglas .reglas2 {
+  margin-left: 74px;
+  margin-right: 75px;
+  text-indent: 30px;
+}
+
+.contenedorGrnd .contenedorReglas .reglas3 {
+  margin-left: 110px;
+  margin-right: 75px;
+  text-indent: 30px;
+}
+
+.contenedorGrnd .contenedorReglas .subtitulos {
+  margin-left: 75px;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+#logo {
+  position: absolute;
+  bottom: 462px;
+  width: 180px;
+  left: 13px;
+}
+
+.contenedorMayor {
+  position: relative;
+  top: 25px;
+  left: 330px;
+  border: 3px solid black;
+  width: 50vw;
+  height: 165vh;
+  border-radius: 26px;
+  background-color: rgb(255, 255, 102);
+  padding: 28px 10px;
+  box-shadow: 3px 3px 1.8px black;
+}
+
+.contenedorMayor .contenedorMenor1 {
+  display: flex;
+  width: 610px;
+  height: 70px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+  gap: 15px;
+}
+
+section .subtitulo {
+  border: 2px black solid;
+  width: 100vw;
+  margin: auto;
+  text-align: center;
+  padding: 2px 0px;
+  background-color: rgb(255, 255, 102);
+  border-radius: 16px;
+}
+
+input[type="text"],
+input[id="zipcode"],
+input[id="birthdate"] {
+  height: 13px;
+  width: 160px;
+  border: none;
+  border-bottom: 2px solid black;
+  background-color: rgb(255, 255, 102);
+}
+
+input[id="address"] {
+  width: 485px;
+}
+
+.contenedorMayor .contenedorMenor2 {
+  display: flex;
+  width: 610px;
+  height: 60px;
+  margin: auto;
+  gap: 30px;
+  margin-top: 15px;
+}
+
+input[id="city"] {
+  width: 300px;
+}
+
+.contenedorMayor .contenedorMenor3 {
+  display: flex;
+  width: 610px;
+  height: 40px;
+  flex-wrap: wrap;
+  margin: auto;
+  gap: 95px;
+  margin-top: -15px;
+}
+
+fieldset {
+  border: none;
+}
+
+.contenedorMayor .contenedorMenor4 {
+  display: flex;
+  width: 610px;
+  height: 30px;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 10px;
+  gap: 17px;
+}
+
+.contenedorMayor .subtitulo2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 610px;
+  height: 60px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.contenedorMayor .contenedorMenor5 {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 90px;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-left: 37px;
+  margin-top: 10px;
+}
+
+.contenedorMayor .parrafo1 {
+  width: 610px;
+  margin: auto;
+  margin-top: -20px;
+  font-weight: bold;
+}
+
+.contenedorMayor .contenedorMenor6 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 500px;
+  height: 50px;
+  margin-left: 37px;
+  margin-top: -20px;
+}
+
+.contenedorMayor .contenedorMenor7 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 500px;
+  height: 50px;
+  margin-left: 37px;
+  margin-top: -20px;
+}
+
+.contenedorMayor .contenedorMenor8 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 500px;
+  margin-left: 37px;
+  margin-top: 20px;
+}
+
+button {
+  width: 80px;
+  height: 25px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.cajaMapas {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  gap: 28px;
+  justify-content: space-between;
+  width: 720px;
+  left: 300px;
+  top: 840px;
+}
+
+.cajaMapas .mapa {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(102, 51, 0);
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: white;
+  border: 1px black solid;
+  padding-top: 5px;
+}
+
+@media only screen and (max-width: 425px) {
+  .subtitulo {
+    font-size: 14px;
+    width: 100vw;
+  }
+  .contenedorGrnd .contenedorPeq {
+    height: 116vh;
+    width: 260px;
+    left: 83px;
+    top: 41px;
+  }
+  html {
+    width: 100vw;
+  }
+  header {
+    height: 34vh;
+  }
+  .contenedorGrnd #logo {
+    width: 100px;
+    left: 12px;
+    bottom: 104px;
+  }
+  header h1 {
+    font-size: 1.3em;
+    left: 108px;
+    top: 46px;
+    gap: 6px;
+  }
+  nav {
+    height: 66px;
+    position: absolute;
+    right: 11px;
+    top: 122px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 365px;
+    gap: 10px;
+  }
+  nav a {
+    font-size: 0.5em;
+    padding: 6px 6px;
+    width: 75px;
+  }
+
+  .contenedorGrnd .contenedorTabla {
+    width: 80vw;
+    height: 372vh;
+    top: 39px;
+    left: 42px;
+  }
+  .contenedorGrnd .contenedorTabla .encabezadoTabla {
+    margin-left: 15px;
+    font-size: 14px;
+  }
+
+  .contenedorGrnd .contenedorTabla {
+    font-size: 12px;
+  }
+
+  table,
+  tr,
+  th,
+  td {
+    font-size: 9px;
+    padding: 3px 7px;
+    margin-left: 34px;
+  }
+
+  .cajaMapas {
+    flex-direction: column;
+    left: 68px;
+    width: 282px;
+    top: 726px;
+  }
+
+  .contenedorGrnd .contenedorReglas {
+    width: 84vw;
+    left: 36px;
+    height: 337vh;
+  }
+
+  .contenedorMayor {
+    left: 33px;
+    width: 82vw;
+    height: 239vh;
+  }
+
+  .contenedorMayor .contenedorMenor1 {
+    width: 571px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .contenedorMayor .contenedorMenor2 {
+    flex-direction: column;
+    position: relative;
+    flex-wrap: nowrap;
+    left: 19px;
+    top: 13px;
+  }
+
+  .contenedorMayor .contenedorMenor3 {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 576px;
+    margin-top: 42px;
+  }
+
+  .contenedorMayor .contenedorMenor4 {
+    width: 360px;
+    position: relative;
+    right: 116px;
+  }
+
+  .contenedorMayor .contenedorMenor5 {
+    flex-direction: column;
+    width: 300px;
+    position: relative;
+    top: 41px;
+    right: 10px;
+  }
+
+  .contenedorMayor .contenedorMenor6 {
+    flex-direction: column;
+    margin-left: 26px;
+    margin-top: -20px;
+    position: relative;
+    right: 2px;
+    top: 32px;
+    width: 236px;
+  }
+
+  .contenedorMayor .contenedorMenor7 {
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 305px;
+    height: 72px;
+    margin-left: 23px;
+  }
+
+  input[type="text"],
+  input[id="zipcode"],
+  input[id="birthdate"] {
+    width: 90px;
+  }
+
+  .contenedorMayor .subtitulo2 {
+    font-size: 0.9em;
+    position: relative;
+    top: 44px;
+  }
+
+  .contenedorMayor #segundoSubtitulo {
+    width: 330px;
+    position: relative;
+    right: 10px;
+    top: 14px;
+  }
+
+  .contenedorMayor #tercerSubtitulo {
+    position: relative;
+    top: 10px;
+  }
+
+  .contenedorMayor #cuartoSubtitulo {
+    position: relative;
+    top: -10px;
+  }
+
+  .contenedorMayor .ultimoFielset {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contenedorMayor .ultimoFielset .parrafo1 {
+    position: relative;
+    width: 337px;
+    right: 125px;
+  }
+
+  header #logo {
+    position: absolute;
+    bottom: 421px;
+    width: 107px;
+    left: 13px;
+  }
+
+  section .subtitulo {
+    width: 100vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .subtitulo {
+    font-size: 21px;
+    width: 100vw;
+  }
+
+  .contenedorGrnd .contenedorPeq {
+    height: 116vh;
+    width: 520px;
+    left: 122px;
+    top: 47px;
+  }
+
+  html {
+    width: 100vw;
+  }
+
+  header {
+    height: 38vh;
+  }
+
+  .contenedorGrnd #logo {
+    width: 146px;
+    left: 10px;
+    bottom: 98px;
+  }
+
+  header h1 {
+    font-size: 2.3em;
+    left: 175px;
+    top: 55px;
+  }
+
+  nav {
+    height: 66px;
+    position: absolute;
+    right: 364px;
+    top: 155px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 365px;
+    gap: 10px;
+  }
+
+  .contenedorGrnd .contenedorTabla {
+    width: 89vw;
+    height: 400vh;
+    top: 53px;
+    left: 42px;
+  }
+
+  .contenedorGrnd .contenedorTabla .encabezadoTabla {
+    margin-left: 26px;
+    font-size: 18px;
+  }
+
+  table,
+  tr,
+  th,
+  td {
+    font-size: 14px;
+    padding: 5px 39px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    }
+
+  .cajaMapas {
+    flex-direction: column;
+    flex-wrap: wrap;
+    left: 244px;
+    width: 282px;
+    top: 891px;
+  }
+
+  .contenedorGrnd .contenedorReglas{
+    width: 84vw;
+    left: 36px;
+    height: 337vh;
+  }
+  
+  .contenedorMayor {
+    left: 123px;
+    width: 65vw;
+    height: 239vh;
+  }
+
+  .contenedorMayor .contenedorMenor1 {
+    width: 571px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .contenedorMayor .contenedorMenor2 {
+    flex-direction: column;
+    position: relative;
+    flex-wrap: nowrap;
+    left: 19px;
+    top: 13px;
+  }
+
+  .contenedorMayor .contenedorMenor3 {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 576px;
+    margin-top: 42px;
+  }
+
+  .contenedorMayor .contenedorMenor4 {
+    width: 360px;
+    position: relative;
+    right: 116px;
+  }
+
+  .contenedorMayor .contenedorMenor5 {
+    flex-direction: column;
+    width: 300px;
+    position: relative;
+    top: 41px;
+    right: 10px;
+  }
+
+  .contenedorMayor .contenedorMenor6 {
+    flex-direction: column;
+    margin-left: 26px;
+    margin-top: -20px;
+    position: relative;
+    right: 2px;
+    top: 32px;
+    width: 236px;
+  }
+
+  .contenedorMayor .contenedorMenor7 {
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 305px;
+    height: 72px;
+    margin-left: 23px;
+  }
+
+  input[type="text"],
+  input[id="zipcode"],
+  input[id="birthdate"] {
+    width: 90px;
+  }
+
+  .contenedorMayor .subtitulo2 {
+    font-size: 0.9em;
+    position: relative;
+    top: 44px;
+  }
+
+  .contenedorMayor #segundoSubtitulo {
+    width: 330px;
+    position: relative;
+    right: 80px;
+    top: 14px;
+  }
+
+  .contenedorMayor #tercerSubtitulo {
+    position: relative;
+    top: 10px;
+  }
+
+  .contenedorMayor #cuartoSubtitulo {
+    position: relative;
+    top: -10px;
+  }
+
+  .contenedorMayor .ultimoFielset {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contenedorMayor .ultimoFielset .parrafo1 {
+    position: relative;
+    width: 337px;
+    right: 125px;
+  }
+
+  header #logo {
+    position: absolute;
+    bottom: 405px;
+    width: 137px;
+    left: 23px;
+  }
+
+  section .subtitulo {
+    width: 100vw;
+  }
+}
